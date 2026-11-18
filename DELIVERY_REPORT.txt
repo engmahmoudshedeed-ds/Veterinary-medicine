@@ -1,0 +1,43 @@
+VETERINARY PATHOLOGY WEBSITE — DELIVERY REPORT
+
+1. PROJECT
+A new static website has been created from scratch using HTML5, CSS3 and vanilla JavaScript.
+The supplied reference image guided the visual language and layout only.
+
+2. SOURCE MATERIAL
+- Primary scientific source: Veterinary_Pathology_Notes.docx
+- Disease topics extracted: 13
+- Embedded images extracted and optimized: 7
+- References retained from source: 5
+- Website language: English only
+
+3. DESIGN
+- Dark navy background with turquoise and white accents.
+- Orange category: Infectious Diseases.
+- Purple category: Inflammatory & Autoimmune Diseases.
+- Green category: Parasitic Diseases.
+- Academic dashboard-style hero, category cards, section panels and footer.
+- No external image URLs are used; source images are stored in assets/images.
+
+4. FUNCTIONALITY
+- Responsive desktop, tablet and mobile layouts.
+- Collapsible mobile navigation.
+- Disease search across titles and source text.
+- Individual disease details in an internal modal.
+- Local image gallery with an internal lightbox.
+- References displayed as plain text, not clickable external links.
+- Runs by opening index.html; no database or local server required.
+
+5. CONTENT ORGANIZATION
+The 13 source topics are grouped for navigation:
+- Infectious: Infectious Tenosynovitis; Septic Arthritis with Ligament Involvement.
+- Inflammatory & Autoimmune: Non-infectious Enthesitis; Inclusion Body Myositis (IBM); Rheumatoid Arthritis (Canine); Systemic Lupus Erythematosus (SLE); Jaccoud Arthropathy; Dermatomyositis.
+- Parasitic: Taenia solium and Cysticercus cellulosae; Sarcocystis spp. (Sarcocystosis); Toxoplasmosis (Toxoplasma gondii); Neospora caninum; Bovine Cysticercosis (Taenia saginata / Cysticercus bovis).
+
+6. SOURCE LIMITATIONS
+- Some source figures do not have complete captions or bibliographic image attribution. The website labels these transparently rather than guessing their disease association or source.
+- The source document notes incomplete bibliographic details for general clinical/reference resources on inclusion body myositis and dermatomyositis.
+- The source's References retained section is reproduced as supplied.
+
+7. FILES
+See README.md for structure and run instructions.

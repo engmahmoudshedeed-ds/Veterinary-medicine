@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Veterinary pathology educational project covering muscle, tendon, ligament and joint diseases.">
+  <title>Veterinary Pathology | Muscle & Ligament</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="Veterinary Pathology home">
+    <span class="brand-mark">⚕</span>
+    <span><strong>Veterinary Pathology</strong><em>Educational Project</em></span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <nav id="mainNav" aria-label="Main navigation">
+    <a class="active" href="#home">⌂ <span>Home</span></a>
+    <a href="#introduction">▤ <span>Introduction</span></a>
+    <a href="#anatomy">⚒ <span>Anatomy & Functions</span></a>
+    <a href="#infectious">✺ <span>Infectious</span></a>
+    <a href="#inflammatory">✚ <span>Inflammatory</span></a>
+    <a href="#parasitic">♧ <span>Parasitic</span></a>
+    <a href="#gallery">▧ <span>Images Gallery</span></a>
+    <a href="#references">▤ <span>References</span></a>
+  </nav>
+  <form class="search" id="searchForm" role="search">
+    <input id="searchInput" type="search" placeholder="Search diseases..." aria-label="Search diseases">
+    <button aria-label="Search">⌕</button>
+  </form>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-pattern"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">VETERINARY PATHOLOGY PROJECT</p>
+    <h1><span>Muscle</span> and <b>Ligament</b></h1>
+    <h2>Muscle, Tendon, Ligament and Joint Diseases</h2>
+    <p>Understanding pathological changes for healthier animals</p>
+    <a class="cta" href="#introduction">Explore the Project <span>→</span></a>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="anatomy-orbit orbit-one"></div><div class="anatomy-orbit orbit-two"></div>
+    <div class="anatomy-symbol">✚</div>
+    <div class="hero-stats"><strong>13</strong><span>Pathology topics</span><i></i><strong>07</strong><span>Embedded figures</span></div>
+  </div>
+  <div class="hero-ribbon">ANIMAL HEALTH • PATHOLOGY • SCIENCE</div>
+</section>
+
+<section class="category-grid" aria-label="Disease categories">
+  <article class="category-card infectious-card">
+    <div class="category-icon">✺</div><div><h3>Infectious Diseases</h3><p>Infection-associated inflammation and joint disease</p><a href="#infectious">View Diseases →</a></div>
+  </article>
+  <article class="category-card inflammatory-card">
+    <div class="category-icon">✚</div><div><h3>Inflammatory & Autoimmune</h3><p>Immune-mediated, inflammatory and degenerative conditions</p><a href="#inflammatory">View Diseases →</a></div>
+  </article>
+  <article class="category-card parasitic-card">
+    <div class="category-icon">♧</div><div><h3>Parasitic Diseases</h3><p>Protozoal and cestode-associated muscle disease</p><a href="#parasitic">View Diseases →</a></div>
+  </article>
+</section>
+
+<section class="intro-panel" id="introduction">
+  <div class="section-heading"><span class="section-icon">▤</span><div><p class="eyebrow">PROJECT OVERVIEW</p><h2>Introduction and Aim</h2></div></div>
+  <p id="introText"></p>
+  <div class="quick-facts"><div><strong>13</strong><span>Diseases covered</span></div><div><strong>3</strong><span>Navigation groups</span></div><div><strong>7</strong><span>Embedded figures</span></div></div>
+</section>
+
+<section class="anatomy-panel" id="anatomy">
+  <div><p class="eyebrow">FOUNDATION</p><h2>Anatomy and Functions</h2><p>Muscles produce movement, maintain posture and generate heat. Ligaments connect bones, stabilize joints and limit abnormal movement.</p></div>
+  <div class="anatomy-visual"><span> MUSCLE </span><b>＋</b><span> TENDON </span><b>＋</b><span> LIGAMENT </span><b>＋</b><span> JOINT </span></div>
+</section>
+
+<section class="disease-section" id="infectious">
+  <div class="section-heading"><span class="section-icon orange">✺</span><div><p class="eyebrow">CATEGORY 01</p><h2>Infectious Diseases</h2></div></div>
+  <div class="disease-grid" id="infectiousGrid"></div>
+</section>
+<section class="disease-section" id="inflammatory">
+  <div class="section-heading"><span class="section-icon purple">✚</span><div><p class="eyebrow">CATEGORY 02</p><h2>Inflammatory & Autoimmune Diseases</h2></div></div>
+  <div class="disease-grid" id="inflammatoryGrid"></div>
+</section>
+<section class="disease-section" id="parasitic">
+  <div class="section-heading"><span class="section-icon green">♧</span><div><p class="eyebrow">CATEGORY 03</p><h2>Parasitic Diseases</h2></div></div>
+  <div class="disease-grid" id="parasiticGrid"></div>
+</section>
+
+<section class="gallery-section" id="gallery">
+  <div class="section-heading"><span class="section-icon">▧</span><div><p class="eyebrow">SOURCE DOCUMENT FIGURES</p><h2>Gross & Histopathological Images</h2></div></div>
+  <p class="section-lead">Images extracted from the supplied Word document and stored locally with this website.</p>
+  <div class="gallery-grid" id="galleryGrid"></div>
+</section>
+
+<section class="references-panel" id="references">
+  <div class="section-heading"><span class="section-icon">▤</span><div><p class="eyebrow">ACADEMIC SOURCES</p><h2>References</h2></div></div>
+  <p class="section-lead">References retained from the source document. No external links are provided.</p>
+  <ol id="referenceList"></ol>
+  <div class="reference-note">The source document notes that general clinical/reference resources for inclusion body myositis and dermatomyositis were listed, but complete bibliographic details were not provided.</div>
+</section>
+
+<section class="conclusion-panel">
+  <p class="eyebrow">PROJECT SUMMARY</p><h2>Conclusion</h2><p id="conclusionText"></p>
+</section>
+</main>
+
+<footer><div class="footer-brand"><span class="brand-mark">⚕</span><span><strong>Veterinary Pathology</strong><em>Muscle, Tendon, Ligament and Joint Diseases</em></span></div><p>Healthy Animals • Healthy Future</p><span class="footer-pulse">⌁ ♥</span></footer>
+
+<div class="modal" id="diseaseModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-backdrop" data-close></div><div class="modal-box">
+    <button class="modal-close" data-close aria-label="Close">×</button>
+    <p class="eyebrow" id="modalCategory"></p><h2 id="modalTitle"></h2><div id="modalBody"></div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="lightbox-close" data-lightbox-close aria-label="Close image">×</button>
+  <img id="lightboxImage" alt=""><p id="lightboxCaption"></p>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/js/content.js"></script><script src="assets/js/app.js"></script>
+</body></html>
